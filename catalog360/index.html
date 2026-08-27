@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog360.ro - Informatică și TIC Clasa a V-a</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+                <span class="logo-text">Catalog<span class="highlight">360</span>.ro</span>
+            </a>
+            
+            <button class="mobile-menu-btn" aria-label="Meniu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Acasă</a></li>
+                <li><a href="clasa-v.html" class="nav-link">Clasa a V-a</a></li>
+                <li><a href="#" class="nav-link">Clasa a VI-a</a></li>
+                <li><a href="#" class="nav-link">Clasa a VII-a</a></li>
+                <li><a href="#" class="nav-link">Clasa a VIII-a</a></li>
+                <li><a href="despre.html" class="nav-link">Despre</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Mascot -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Învață <span class="highlight">Informatica</span> altfel!</h1>
+                <p class="hero-subtitle">Platformă educațională completă pentru curriculum-ul de Informatică și TIC, clasele V-VIII</p>
+                <p class="hero-description">Descoperă lecții interactive, exerciții practice și proiecte captivante alături de mascotă noastră, <strong>Bit</strong> - robotul tău prietenos!</p>
+                <div class="hero-buttons">
+                    <a href="clasa-v.html" class="btn btn-primary">
+                        <i class="fas fa-play-circle"></i> Începe cu Clasa a V-a
+                    </a>
+                    <a href="#module" class="btn btn-secondary">
+                        <i class="fas fa-book-open"></i> Vezi Modulele
+                    </a>
+                </div>
+            </div>
+            <div class="hero-mascot">
+                <div class="mascot-container">
+                    <svg class="mascot-svg" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Bit the Robot Mascot -->
+                        <!-- Body -->
+                        <rect x="150" y="180" width="100" height="140" rx="15" fill="#2563eb" stroke="#1e3a8a" stroke-width="3"/>
+                        
+                        <!-- Head -->
+                        <rect x="140" y="60" width="120" height="110" rx="20" fill="#3b82f6" stroke="#1e3a8a" stroke-width="3"/>
+                        
+                        <!-- Eyes -->
+                        <ellipse cx="175" cy="105" rx="18" ry="22" fill="white"/>
+                        <ellipse cx="225" cy="105" rx="18" ry="22" fill="white"/>
+                        <circle cx="180" cy="108" r="8" fill="#0f172a"/>
+                        <circle cx="230" cy="108" r="8" fill="#0f172a"/>
+                        <circle cx="183" cy="105" r="3" fill="white"/>
+                        <circle cx="233" cy="105" r="3" fill="white"/>
+                        
+                        <!-- Antenna -->
+                        <line x1="200" y1="60" x2="200" y2="30" stroke="#64748b" stroke-width="4"/>
+                        <circle cx="200" cy="25" r="8" fill="#ef4444" stroke="#dc2626" stroke-width="2"/>
+                        
+                        <!-- Smile -->
+                        <path d="M 175 140 Q 200 155 225 140" stroke="#0f172a" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        
+                        <!-- Arms -->
+                        <path d="M 150 220 Q 120 240 110 200" stroke="#2563eb" stroke-width="8" fill="none" stroke-linecap="round"/>
+                        <path d="M 250 220 Q 280 240 290 200" stroke="#2563eb" stroke-width="8" fill="none" stroke-linecap="round"/>
+                        
+                        <!-- Hands -->
+                        <circle cx="110" cy="200" r="12" fill="#3b82f6" stroke="#1e3a8a" stroke-width="2"/>
+                        <circle cx="290" cy="200" r="12" fill="#3b82f6" stroke="#1e3a8a" stroke-width="2"/>
+                        
+                        <!-- Screen on chest -->
+                        <rect x="165" y="200" width="70" height="50" rx="5" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+                        <rect x="170" y="205" width="60" height="40" rx="3" fill="#0f172a"/>
+                        <!-- Code lines on screen -->
+                        <line x1="175" y1="215" x2="215" y2="215" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="175" y1="225" x2="220" y2="225" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="175" y1="235" x2="210" y2="235" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+                        
+                        <!-- Legs -->
+                        <rect x="165" y="320" width="25" height="50" rx="8" fill="#1e3a8a"/>
+                        <rect x="210" y="320" width="25" height="50" rx="8" fill="#1e3a8a"/>
+                        
+                        <!-- Feet -->
+                        <ellipse cx="177" cy="375" rx="20" ry="10" fill="#3b82f6" stroke="#1e3a8a" stroke-width="2"/>
+                        <ellipse cx="223" cy="375" rx="20" ry="10" fill="#3b82f6" stroke="#1e3a8a" stroke-width="2"/>
+                        
+                        <!-- Speech bubble -->
+                        <ellipse cx="320" cy="100" rx="50" ry="30" fill="white" stroke="#64748b" stroke-width="2"/>
+                        <polygon points="275,90 285,100 275,110" fill="white" stroke="#64748b" stroke-width="2"/>
+                        <text x="295" y="95" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#0f172a">Salut!</text>
+                        <text x="285" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#0f172a">Sunt Bit!</text>
+                        
+                        <!-- Decorative elements -->
+                        <circle cx="80" cy="150" r="5" fill="#2563eb" opacity="0.6"/>
+                        <circle cx="320" cy="200" r="7" fill="#3b82f6" opacity="0.5"/>
+                        <circle cx="90" cy="280" r="4" fill="#60a5fa" opacity="0.7"/>
+                        <circle cx="330" cy="300" r="6" fill="#2563eb" opacity="0.4"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Wave divider -->
+        <div class="wave-divider">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,64 C480,120 960,0 1440,64 L1440,120 L0,120 Z" fill="#f8fafc"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">De ce Catalog360?</h2>
+            <p class="section-subtitle">O platformă gândită special pentru elevii de gimnaziu</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Conținut Aliniat Curricular</h3>
+                    <p>Lecții structurate conform programei școlare OMEN 3393/2017 pentru clasele V-VIII</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>Învățare Practică</h3>
+                    <p>Exerciții interactive și proiecte în Scratch care transformă teoria în abilități reale</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Progres Ușor de Urmărit</h3>
+                    <p>Evaluări formative și sumative care te ajută să îți monitorizezi evoluția</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Siguranță Online</h3>
+                    <p>Accent pe utilizarea responsabilă a tehnologiei și protecția datelor personale</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modules Preview Section -->
+    <section class="modules-preview" id="module">
+        <div class="container">
+            <h2 class="section-title">Structura pentru Clasa a V-a</h2>
+            <p class="section-subtitle">5 module · 9 unități de învățare · 34 de ore</p>
+            
+            <div class="modules-timeline">
+                <div class="module-card">
+                    <div class="module-header">
+                        <span class="module-number">Modulul 1</span>
+                        <span class="module-hours">7 ore</span>
+                    </div>
+                    <h3>Primii pași și hardware-ul</h3>
+                    <ul class="module-topics">
+                        <li><i class="fas fa-check-circle"></i> În siguranță la calculator</li>
+                        <li><i class="fas fa-check-circle"></i> Cum e făcut un calculator</li>
+                    </ul>
+                    <a href="clasa-v.html#modul1" class="module-link">Vezi detalii <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="module-card">
+                    <div class="module-header">
+                        <span class="module-number">Modulul 2</span>
+                        <span class="module-hours">7 ore</span>
+                    </div>
+                    <h3>Sistemul de operare și Internetul</h3>
+                    <ul class="module-topics">
+                        <li><i class="fas fa-check-circle"></i> Sistemul de operare</li>
+                        <li><i class="fas fa-check-circle"></i> Internetul ca sursă de documentare</li>
+                    </ul>
+                    <a href="clasa-v.html#modul2" class="module-link">Vezi detalii <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="module-card">
+                    <div class="module-header">
+                        <span class="module-number">Modulul 3</span>
+                        <span class="module-hours">4 ore</span>
+                    </div>
+                    <h3>Creație grafică</h3>
+                    <ul class="module-topics">
+                        <li><i class="fas fa-check-circle"></i> Creez cu editorul grafic</li>
+                    </ul>
+                    <a href="clasa-v.html#modul3" class="module-link">Vezi detalii <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="module-card">
+                    <div class="module-header">
+                        <span class="module-number">Modulul 4</span>
+                        <span class="module-hours">8 ore</span>
+                    </div>
+                    <h3>Gândire algoritmică</h3>
+                    <ul class="module-topics">
+                        <li><i class="fas fa-check-circle"></i> Gândesc ca un algoritm</li>
+                        <li><i class="fas fa-check-circle"></i> Structura secvențială în Scratch</li>
+                    </ul>
+                    <a href="clasa-v.html#modul4" class="module-link">Vezi detalii <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="module-card">
+                    <div class="module-header">
+                        <span class="module-number">Modulul 5</span>
+                        <span class="module-hours">8 ore</span>
+                    </div>
+                    <h3>Decizii și joc digital</h3>
+                    <ul class="module-topics">
+                        <li><i class="fas fa-check-circle"></i> Structura alternativă</li>
+                        <li><i class="fas fa-check-circle"></i> Creez un joc digital</li>
+                    </ul>
+                    <a href="clasa-v.html#modul5" class="module-link">Vezi detalii <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="clasa-v.html" class="btn btn-primary btn-large">
+                    <i class="fas fa-rocket"></i> Explorează Clasa a V-a Completă
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competencies Section -->
+    <section class="competencies">
+        <div class="container">
+            <h2 class="section-title">Competențe Specifice Dezvoltate</h2>
+            <p class="section-subtitle">Toate cele 10 competențe din programa școlară sunt acoperite</p>
+            
+            <div class="competencies-grid">
+                <div class="competency-item">
+                    <div class="competency-badge">1.1</div>
+                    <p>Hardware, siguranță, tipuri de sisteme</p>
+                </div>
+                <div class="competency-item">
+                    <div class="competency-badge">1.2</div>
+                    <p>Componente software / sistem de operare</p>
+                </div>
+                <div class="competency-item">
+                    <div class="competency-badge">1.3</div>
+                    <p>Internetul ca sursă de documentare</p>
+                </div>
+                <div class="competency-item">
+                    <div class="competency-badge">2.1</div>
+                    <p>Descrierea algoritmilor în limbaj natural</p>
+                </div>
+                <div class="competency-item">
+                    <div class="competency-badge">2.2</div>
+                    <p>Identificarea datelor în algoritmi</p>
+                </div>
+                <div class="competency-item">
+                    <div class="competency-badge">2.3</div>
+                    <p>Algoritmi cu structura secvențială</p>
+                </div>
+                <div class="competency-item">
+                    <div class="competency-badge">2.4</div>
+                    <p>Algoritmi cu structura alternativă</p>
+                </div>
+                <div class="competency-item">
+                    <div class="competency-badge">3.1</div>
+                    <p>Editoare grafice — produse informatice</p>
+                </div>
+                <div class="competency-item">
+                    <div class="competency-badge">3.2</div>
+                    <p>Implementare în mediu grafic (Scratch)</p>
+                </div>
+                <div class="competency-item">
+                    <div class="competency-badge">3.3</div>
+                    <p>Jocuri digitale — creativitate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container cta-container">
+            <div class="cta-content">
+                <h2>Pregătit să începi aventura în informatică?</h2>
+                <p>Alătură-te lui Bit și descoperă cum poți crea propriile tale jocuri și aplicații!</p>
+                <a href="clasa-v.html" class="btn btn-white btn-large">
+                    <i class="fas fa-start"></i> Începe Acum Gratuit
+                </a>
+            </div>
+            <div class="cta-mascot-small">
+                <svg viewBox="0 0 150 180" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="55" y="70" width="40" height="55" rx="8" fill="#2563eb" stroke="#1e3a8a" stroke-width="2"/>
+                    <rect x="50" y="25" width="50" height="45" rx="10" fill="#3b82f6" stroke="#1e3a8a" stroke-width="2"/>
+                    <ellipse cx="68" cy="45" rx="8" ry="10" fill="white"/>
+                    <ellipse cx="82" cy="45" rx="8" ry="10" fill="white"/>
+                    <circle cx="71" cy="47" r="4" fill="#0f172a"/>
+                    <circle cx="85" cy="47" r="4" fill="#0f172a"/>
+                    <path d="M 65 60 Q 75 67 85 60" stroke="#0f172a" stroke-width="2" fill="none" stroke-linecap="round"/>
+                    <line x1="75" y1="25" x2="75" y2="15" stroke="#64748b" stroke-width="2"/>
+                    <circle cx="75" cy="12" r="4" fill="#ef4444"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+                    <span class="logo-text">Catalog<span class="highlight">360</span>.ro</span>
+                </a>
+                <p>Platformă educațională pentru Informatică și TIC, clasele V-VIII</p>
+                <p class="footer-note">Aliniată programei școlare OMEN 3393/2017</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Clase</h4>
+                    <ul>
+                        <li><a href="clasa-v.html">Clasa a V-a</a></li>
+                        <li><a href="#">Clasa a VI-a</a></li>
+                        <li><a href="#">Clasa a VII-a</a></li>
+                        <li><a href="#">Clasa a VIII-a</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Resurse</h4>
+                    <ul>
+                        <li><a href="#">Lecții</a></li>
+                        <li><a href="#">Exerciții</a></li>
+                        <li><a href="#">Proiecte</a></li>
+                        <li><a href="#">Evaluări</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Informații</h4>
+                    <ul>
+                        <li><a href="despre.html">Despre noi</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Termeni și condiții</a></li>
+                        <li><a href="#">Confidențialitate</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Catalog360.ro. Toate drepturile rezervate.</p>
+                <p class="credit">Creat cu <i class="fas fa-heart"></i> pentru educația românească</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
